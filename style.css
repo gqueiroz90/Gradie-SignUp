@@ -21,7 +21,7 @@
 }
 
 body {
-    background-image: url("Assets/Background.png");
+    background-image: url("./Assets/Background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -136,7 +136,7 @@ body {
 
 @media(max-width: 650px){
     body{
-        background-image: url("/Assets/Background.png");
+        background-image: url("./Assets/Background.png");
     }
 
     .gradie-container{
